@@ -68,7 +68,7 @@ function keyPressed() {
  if (keyCode === DOWN_ARROW) {
     
 	Matter.Body.setStatic(packageBody,false);
-	packageBody.restitution=0.84;
+	packageBody.restitution=0.14;
   }
 }
 
