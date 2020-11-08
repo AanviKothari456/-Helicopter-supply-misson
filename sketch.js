@@ -1,6 +1,6 @@
 var helicopterIMG, helicopterSprite, packageSprite,packageIMG;
 
-var packageBody,ground, rect1, rect2, rect3;
+var packageBody,ground,rect1, rect2, rect3;
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
@@ -48,13 +48,13 @@ function setup() {
 	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
 	 World.add(world, ground);
 	 
-	 rect1 = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
+	 rect1 = Bodies.rectangle(220,570,15,190, {isStatic:true} );
 	 World.add(world, rect1);
 	 
-	 rect2 = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
+	 rect2 = Bodies.rectangle( 600,570,15,190, {isStatic:true} );
 	 World.add(world, rect2);
 	 
-	 rect3 = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
+	 rect3 = Bodies.rectangle(410,655,390,10, {isStatic:true} );
  	World.add(world, rect3);
 
 
